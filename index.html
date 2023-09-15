@@ -6,267 +6,223 @@
       <meta name="description" content>
       <meta name="author" content="Uynahs">
       <title>Stiffeel's personal page</title>
-      
       <link href="media/avatar.jpg" rel="SHORTCUT ICON">
-
       <style>
-        html, body {
-        padding: 0;
-        margin: 0;
-        line-height: 1.4;
-        /* 1 */
-        -webkit-text-size-adjust: 100%;
-        /* 2 */
-        }
-
-        html {
-        font-size: 1.1em;
-        }
-
-        body {
-        font-size: 100%;
-        margin: 0;
-        background-color: #111;
-        color: #DDD;
-        /*font-family: Helvetica, sans-serif;*/
-        }
-
-
-        h1, h2 {
-        font-size: 2em;
-        margin: 0.67em 0;
-        letter-spacing: 0.3rem;
-        
-        }
-
-        h2 {
-        font-size: 1.5em;
-        color: rgb(170,200,130);
-        }
-
-        hr {
-        width: 100%;
-        margin: 2em auto;
-        }
-
-        small {
-        /*font-family: Helvetica, sans-serif;*/
-        font-size: 50%;
-        }
-
-        li {
-        margin-top: 1rem;
-        }
-
-        a {
-        color: #fff; /* Change link color to dark green */
-        }
-        a:visited {
-        color: #fff; /* Change visited link color to dark green */
-        }
-
-        .index-splash {
-        width: 100%;
-        height: 100vh;
-        }
-
-        .index-splash-image {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        backface-visibility: hidden;
-        color: transparent;
-        top: 0px;
-        left: 0px;
-        z-index: 0;
-        opacity: 0;
-        animation: imageAnimation 30s linear infinite 0s;
-        }
-
-        .index-splash-image:nth-child(1) {
-        background-image: url(pic_1_2.jpg);
-        }
-
-        .index-splash-image:nth-child(2) {
-        animation-delay: 5s;
-        background-image: url(pic_1_3.png);
-        }
-
-        .index-splash-image:nth-child(3) {
-        animation-delay: 10s;
-        background-image: url(pic_1_4.png);
-        }
-
-        .index-splash-image:nth-child(4) {
-        animation-delay: 15s;
-        background-image: url(pic_1_2.jpg);
-        }
-
-        .index-splash-image:nth-child(5) {
-        animation-delay: 20s;
-        background-image: url(pic_1_3.png);
-        }
-
-        .index-splash-image:nth-child(6) {
-        animation-delay: 25s;
-        background-image: url(pic_1_4.png);
-        }
-
-
-
-        @keyframes imageAnimation {
-        0% {
-            animation-timing-function: ease-in;
-            opacity: 0;
-        }
-        8% {
-            animation-timing-function: ease-out;
-            opacity: 1;
-        }
-        17% {
-            opacity: 1
-        }
-        25% {
-            opacity: 0
-        }
-        100% {
-            opacity: 0
-        }
-        }
-
-        .splash-box {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 100%;
-        text-align: left;
-        padding: 0 0 0 1rem;
-        color: #FFF;
-        background-color: rgba(0, 0, 0, 0.205);
-        border-width: 1px;
-        border-color: rgba(0, 0, 0, 0.384);
-        border-style: solid;
-        }
-
-        .splash-box h1 {
-        text-align: left;
-        }
-
-        section {
-        margin: 1rem auto;
-        padding: 0 1rem;
-        max-width: 1024px;
-        }
-
-        .detail_media {
-        display: flex;
-        margin: 1rem 0;
-        }
-
-        .detail_left {
-        flex: 5;
-        padding: 0 1rem 0 0;
-        }
-
-        .detail_right {
-        flex: 5;
-        padding: 0 0 0 1rem;
-        }
-
-        .detail_img {
-        flex: 1;
-        max-width: 50%;
-        margin: 0 auto;
-        }
-
-        .detail_img img {
-        width: 100%;
-        }
-
-        .strike {
-        text-decoration: line-through;
-        }
-
-        .row {
-        display: flex;
-        }
-
-        .col {
-        padding: 1rem;
-        flex: 1;
-        flex-grow: 1;
-        }
-
-        .col img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        vertical-align: bottom;
-        }
-
-        img.contain {
-        object-fit: contain;
-        }
-
-        img.threeq {
-        height: 66vh;
-        }
-
-        .content-bar {
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        background-color: #222; 
-        padding: 5px 0;
-        /*border: 1px solid rgb(170,200,130);  Add a border around the content bar */
-        /*border-radius: 5px;  Add rounded corners to the frame */
-        overflow: hidden; /* Hide the line under the border */
-        }
-
-        .button {
-            text-decoration: none;
-            padding: 5px 0;
-            position: relative; /* Required for the line */
-        }
-
-
-        .button::after {
-            content: '';
-            display: block;
-            width: 0;
-            height: 2px; /* Height of the line */
-            background-color: rgb(170,200,130); /* Change to your desired line color */
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            transition: width 0.3s ease;
-        }
-
-        .button:hover::after {
-            width: 100%; /* Show the line on hover */
-        }
-
-
-
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.1);
-            }
-            100% {
-                transform: scale(1);
-            }
-        }
+         html, body {
+         padding: 0;
+         margin: 0;
+         line-height: 1.4;
+         -webkit-text-size-adjust: 100%;
+         }
+         html {
+         font-size: 1.1em;
+         }
+         body {
+         font-size: 100%;
+         margin: 0;
+         background-color: #111;
+         color: #DDD;
+         }
+         h1, h2 {
+         font-size: 2em;
+         margin: 0.67em 0;
+         letter-spacing: 0.3rem;
+         }
+         h2 {
+         font-size: 1.5em;
+         color: rgb(29, 103, 36);
+         }
+         hr {
+         width: 100%;
+         margin: 2em auto;
+         }
+         small {
+         /*font-family: Helvetica, sans-serif;*/
+         font-size: 50%;
+         }
+         li {
+         margin-top: 1rem;
+         }
+         a {
+         color: #fff; 
+         }
+         a:visited {
+         color: #fff; 
+         }
+         .index-splash {
+         width: 100%;
+         height: 100vh;
+         }
+         .index-splash-image {
+         width: 100%;
+         height: 100%;
+         position: absolute;
+         background-position: center center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         backface-visibility: hidden;
+         color: transparent;
+         top: 0px;
+         left: 0px;
+         z-index: 0;
+         opacity: 0;
+         animation: imageAnimation 30s linear infinite 0s;
+         }
+         .index-splash-image:nth-child(1) {
+         background-image: url(pic_1_2.jpg);
+         }
+         .index-splash-image:nth-child(2) {
+         animation-delay: 5s;
+         background-image: url(pic_1_3.png);
+         }
+         .index-splash-image:nth-child(3) {
+         animation-delay: 10s;
+         background-image: url(pic_1_4.png);
+         }
+         .index-splash-image:nth-child(4) {
+         animation-delay: 15s;
+         background-image: url(pic_1_2.jpg);
+         }
+         .index-splash-image:nth-child(5) {
+         animation-delay: 20s;
+         background-image: url(pic_1_3.png);
+         }
+         .index-splash-image:nth-child(6) {
+         animation-delay: 25s;
+         background-image: url(pic_1_4.png);
+         }
+         @keyframes imageAnimation {
+         0% {
+         animation-timing-function: ease-in;
+         opacity: 0;
+         }
+         8% {
+         animation-timing-function: ease-out;
+         opacity: 1;
+         }
+         17% {
+         opacity: 1
+         }
+         25% {
+         opacity: 0
+         }
+         100% {
+         opacity: 0
+         }
+         }
+         .splash-box {
+         position: absolute;
+         top: 0px;
+         left: 0px;
+         width: 100%;
+         text-align: left;
+         padding: 0 0 0 1rem;
+         color: #FFF;
+         background-color: rgba(0, 0, 0, 0.205);
+         border-width: 1px;
+         border-color: rgba(0, 0, 0, 0.384);
+         border-style: solid;
+         }
+         .splash-box h1 {
+         text-align: left;
+         }
+         section {
+         margin: 1rem auto;
+         padding: 0 1rem;
+         max-width: 1024px;
+         }
+         .detail_media {
+         display: flex;
+         margin: 1rem 0;
+         }
+         .detail_left {
+         flex: 5;
+         padding: 0 1rem 0 0;
+         }
+         .detail_right {
+         flex: 5;
+         padding: 0 0 0 1rem;
+         }
+         .detail_img {
+         flex: 1;
+         max-width: 50%;
+         margin: 0 auto;
+         }
+         .detail_img img {
+         width: 100%;
+         }
+         .row {
+         display: flex;
+         }
+         .col {
+         padding: 1rem;
+         flex: 1;
+         flex-grow: 1;
+         }
+         .col img {
+         height: 100%;
+         width: 100%;
+         object-fit: cover;
+         vertical-align: bottom;
+         }
+         img.contain {
+         object-fit: contain;
+         }
+         img.threeq {
+         height: 66vh;
+         }
+         .content-bar {
+         width: 100%;
+         display: flex;
+         justify-content: space-around;
+         background-color: #222; 
+         padding: 5px 0;
+         overflow: hidden; 
+         }
+         .button {
+         text-decoration: none;
+         padding: 5px 0;
+         position: relative; 
+         }
+         .button::after {
+         content: '';
+         display: block;
+         width: 0;
+         height: 2px; 
+         background-color: rgb(29, 103, 36); /*line color */
+         position: absolute;
+         bottom: 0;
+         left: 50%;
+         transform: translateX(-50%);
+         transition: width 0.3s ease;
+         }
+         .button:hover::after {
+         width: 100%; 
+         }
+         @keyframes pulse {
+         0% {
+         transform: scale(1);
+         }
+         50% {
+         transform: scale(1.1);
+         }
+         100% {
+         transform: scale(1);
+         }
+         }
+         img {
+         margin-bottom: -7px
+         }    
+         .exibit-col,.exibit-third,.exibit-quarter{float:left;width:100%;margin_button:20px}       
+         .exibit-quarter{width:24.99999%},.exibit-third{width:33.33333%}
+         .exibit-quarter img{margin-bottom: -6px; cursor: pointer}
+         .exibit-quarter img:hover{opacity: 0.6; transition: 0.3s}
+         .w3-modal{z-index:3;display:none;width:100%;height:100%;overflow:auto;background-color:rgb(29, 103, 36);}
+         .w3-modal-content{margin:auto;background-color:#fff;padding:0;outline:0;width:100%}
+         .w3-padding-64{padding-top:0px!important;padding-bottom:0px!important}
       </style>
    </head>
    <body>
-    
       <div class="index-splash">
          <div class="index-splash-image"></div>
          <div class="index-splash-image"></div>
@@ -288,16 +244,14 @@
             Click here to <a href="https://freeonlinesurveys.com/s/7xMbAdP1">leave your feedback and queries</a>.
          </p>
          </br>
-      </section-->
-      
+         </section-->
       <section class="content-bar">
-        <a href="#Profile" class="button">Profile</a>
-        <a href="#CV" class="button">CV</a>
-        <a href="#Life" class="button">Life</a>
-        <a href="#Library" class="button">Library</a>
-        <a href="#External" class="button">External</a>
+         <a href="#Profile" class="button">Profile</a>
+         <a href="#CV" class="button">CV</a>
+         <a href="#Life" class="button">Life</a>
+         <a href="#Library" class="button">Library</a>
+         <a href="#External" class="button">External</a>
       </section>
-
       <section id="Profile">
          <table width="100%">
             <col width="10"/>
@@ -308,20 +262,17 @@
                </td>
                <td width="90%" >
                   <p align="right"><font size="5"><strong></strong>Hanyu(Petra) SHI</font></strong><br/><br/></p>
-
                   <p align="right">
                      <font size="4">3rd Year Undergraduate | Information Engineering (信息工程)<br/>
                      School of Electronic Information and Electrical Engineering @SJTU</font><br/>
                   </p>
-                  
                   <p align="right"><font size="4">Interests: Electronic HW Design | Embedded Systems | AIoT<br/>
-			  Analog Sound and Music | (Natural) Language Learning</font>
+                     Analog Sound and Music | (Natural) Language Learning</font>
                   </p>
-		  <p align="right">
+                  <p align="right">
                      <font size="4">Address: No.800, Dongchuan Rd., Minhang Dist., Shanghai, China.</font><br/>
                      <font size="4">Email: PetraS_2003@outlook.com</font><br/>...<br/><br/>
                   </p>
-
                   <p align="right"><font size="4">See more about me on <a target="_blank" href="https://github.com/uynahS">GitHub</a>,
                      <a target="_blank" href="https://space.bilibili.com/51546731">Bilibili</a>, 
                      <a target="_blank" href="https://blog.csdn.net/m0_60383495">CSDN</a>, 
@@ -333,8 +284,7 @@
          </table>
          <hr>
       </section>
-      
-      <section class="diy" id="CV">
+      <section  id="CV">
          <!--p><font size="5">View my CV</font><br/></p-->
          <h2>View my CV</h2>
          <div class="row">
@@ -350,56 +300,33 @@
          </p>
          <hr>
       </section>
-      
       <section id="Life">
          <h2>Personal Life</h2>
-         <div class="row">
-            <div class="col">
-               <ul>
-                  <li>
-                     <p><a target="_blank" href="media/childhood.JPG">Growing up</a> and <a target="_blank" href="media/graduation.jpg">graduating from high shool</a> in the city of Lanzhou</p>
-                  </li>
-                  <li>
-                     <p><a target="_blank" href="media/drawing_1.JPG">Drawings</a> and <a target="_blank" href="media/artcrafts.jpg">artcrafts</a></p>
-                  </li>
-                  <li>
-                     <p><a target="_blank" href="media/hiking.jpg">Travelling</a> and <a target="_blank" href="media/marquee.jpg">experiencing</a></p>
-                  </li>
-                  <li>
-                     <p>Singing and making music:</p>
-                     <ul>
-                        <li>
-                           <a target="_blank" href="https://www.bilibili.com/video/BV1BG4y1w7eb/?spm_id_from=333.999.0.0">Skinny love (Bilibili Cover)</a>
-                        </li>
-                        <li>
-                           <a target="_blank" href="https://www.bilibili.com/video/BV1ta411x7zU/?spm_id_from=333.999.0.0">天际大厦 (Bilibili Cover)</a>
-                        </li>
-                        <li>
-                           <a target="_blank" href="https://www.bilibili.com/video/BV14T411G7cV/?spm_id_from=333.999.0.0">Despacito (Bilibili Cover)</a>
-                        </li>
-                        <li>
-                           <a target="_blank" href="https://kg.qq.com/node/play?s=MqAXpVMdUaf_MMVE">复写(More) (WeSing Cover)</a>
-                        </li>
-                        <li>
-                           <a target="_blank" href="https://kg.qq.com/node/play?s=Pva3QnPiF5lvaPw1">Умри, если меня не любишь (WeSing Cover)</a>
-                        </li>
-                     </ul>
-                  </li>
-                  <li>
-                     <p><a target="_blank" href="https://www.esdict.cn/dubbing/share/bce7870b-4043-11ee-bb3b-005056869af6">Aprendizaje del español</a></p>
-                  </li>
-                  <li>
-                     <p>Making, printing and soldering circuits</p>
-                  </li>
-               </ul>
+         <p>Click the photos to view details~</p>
+         <div id="modal01" class="w3-modal" style="padding-top:0" onclick="this.style.display='none'">
+               <p id="caption" align="center" ></p>
+         </div>
+         <div  id="myGrid" style="margin-bottom: 200px">
+            <div class="exibit-quarter" style="margin-bottom: 20px">
+               <img src="media/artcrafts.jpg" style="width:100%" onclick="onClick(this)" alt="Making paper model whenever I have leisure time">
+               <img src="media/woodcut.jpg" style="width:100%" onclick="onClick(this)" alt="Try woodcut painting at the uni">
             </div>
-            <div class="col">
-               <img src="media/pic_personal_1.png" loading="lazy">
+            <div class="exibit-quarter" style="margin-bottom: 20px">
+               <img src="media/childhood.JPG" style="width:100%" onclick="onClick(this)" alt="At a park in Lanzhou with my father">
+               <img src="media/graduation.jpg" style="width:100%" onclick="onClick(this)" alt="After Gaokao, last day in the campus">  
+            </div>
+            <div class="exibit-quarter" style="margin-bottom: 20px">
+               <img src="media/hiking.jpg" style="width:100%" onclick="onClick(this)" alt="Hiking in the forest, looking for the bunkers">
+               <img src="media/marquee.jpg" style="width:100%" onclick="onClick(this)" alt="Marquee @MarinaBaySand">
+            </div>
+            <div class="exibit-quarter" style="margin-bottom: 20px">
+               <img src="media/the_hive.jpg" style="width:100%" onclick="onClick(this)" alt="Summer at NTU">
+               <img src="media/chorus.jpg" style="width:100%" onclick="onClick(this)" alt="Choir performance at the uni">
             </div>
          </div>
+         
          <hr>
       </section>
-      
       <section id="Library">
          <h2>Projects and Notes Library</h2>
          <div class='row'>
@@ -431,7 +358,6 @@
          </div>
          <hr>
       </section>
-      
       <section id="External">
          <h2>External Resources</h2>
          <p>Links below are only for recommandations. 侵权请联系删除。</p>
@@ -513,7 +439,7 @@
                      <li>Used in Building This Website</li>
                      <ul>
                         <li>
-                           <a target="_blank" href="https://www.w3schools.com/html/">HTML code to context formatting</a>
+                           <a target="_blank" href="https://www.exibitschools.com/html/">HTML code to context formatting</a>
                         </li>
                         <li>
                            <a target="_blank" href="https://www.freeformatter.com/html-formatter.html">HTML codes formatter</a>
@@ -538,5 +464,13 @@
       <section class="footer">
          <p>© 2023/09/06 <a href="https://github.com/uynahS"><strong> Uynahs</strong></a></p>
       </section>
+      <script>
+         function onClick(element) {
+           document.getElementById("modal01").style.display = "block";
+           var captionText = document.getElementById("caption");
+           captionText.innerHTML = element.alt;
+         }
+         
+      </script>
    </body>
 </html>
