@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en" class="h-100">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content>
+      <meta name="author" content="Uynahs">
+      <title>Stiffeel's personal page</title>
+      
+      <link href="media/avatar.jpg" rel="SHORTCUT ICON">
+
+      <style>
+        html, body {
+        padding: 0;
+        margin: 0;
+        line-height: 1.4;
+        /* 1 */
+        -webkit-text-size-adjust: 100%;
+        /* 2 */
+        }
+
+        html {
+        font-size: 1.1em;
+        }
+
+        body {
+        font-size: 100%;
+        margin: 0;
+        background-color: #111;
+        color: #DDD;
+        /*font-family: Helvetica, sans-serif;*/
+        }
+
+
+        h1, h2 {
+        font-size: 2em;
+        margin: 0.67em 0;
+        letter-spacing: 0.3rem;
+        
+        }
+
+        h2 {
+        font-size: 1.5em;
+        color: rgb(170,200,130);
+        }
+
+        hr {
+        width: 100%;
+        margin: 2em auto;
+        }
+
+        small {
+        /*font-family: Helvetica, sans-serif;*/
+        font-size: 50%;
+        }
+
+        li {
+        margin-top: 1rem;
+        }
+
+        a {
+        color: #fff; /* Change link color to dark green */
+        }
+        a:visited {
+        color: #fff; /* Change visited link color to dark green */
+        }
+
+        .index-splash {
+        width: 100%;
+        height: 100vh;
+        }
+
+        .index-splash-image {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        backface-visibility: hidden;
+        color: transparent;
+        top: 0px;
+        left: 0px;
+        z-index: 0;
+        opacity: 0;
+        animation: imageAnimation 30s linear infinite 0s;
+        }
+
+        .index-splash-image:nth-child(1) {
+        background-image: url(pic_1_2.jpg);
+        }
+
+        .index-splash-image:nth-child(2) {
+        animation-delay: 5s;
+        background-image: url(pic_1_3.png);
+        }
+
+        .index-splash-image:nth-child(3) {
+        animation-delay: 10s;
+        background-image: url(pic_1_4.png);
+        }
+
+        .index-splash-image:nth-child(4) {
+        animation-delay: 15s;
+        background-image: url(pic_1_2.jpg);
+        }
+
+        .index-splash-image:nth-child(5) {
+        animation-delay: 20s;
+        background-image: url(pic_1_3.png);
+        }
+
+        .index-splash-image:nth-child(6) {
+        animation-delay: 25s;
+        background-image: url(pic_1_4.png);
+        }
+
+
+
+        @keyframes imageAnimation {
+        0% {
+            animation-timing-function: ease-in;
+            opacity: 0;
+        }
+        8% {
+            animation-timing-function: ease-out;
+            opacity: 1;
+        }
+        17% {
+            opacity: 1
+        }
+        25% {
+            opacity: 0
+        }
+        100% {
+            opacity: 0
+        }
+        }
+
+        .splash-box {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        text-align: left;
+        padding: 0 0 0 1rem;
+        color: #FFF;
+        background-color: rgba(0, 0, 0, 0.205);
+        border-width: 1px;
+        border-color: rgba(0, 0, 0, 0.384);
+        border-style: solid;
+        }
+
+        .splash-box h1 {
+        text-align: left;
+        }
+
+        section {
+        margin: 1rem auto;
+        padding: 0 1rem;
+        max-width: 1024px;
+        }
+
+        .detail_media {
+        display: flex;
+        margin: 1rem 0;
+        }
+
+        .detail_left {
+        flex: 5;
+        padding: 0 1rem 0 0;
+        }
+
+        .detail_right {
+        flex: 5;
+        padding: 0 0 0 1rem;
+        }
+
+        .detail_img {
+        flex: 1;
+        max-width: 50%;
+        margin: 0 auto;
+        }
+
+        .detail_img img {
+        width: 100%;
+        }
+
+        .strike {
+        text-decoration: line-through;
+        }
+
+        .row {
+        display: flex;
+        }
+
+        .col {
+        padding: 1rem;
+        flex: 1;
+        flex-grow: 1;
+        }
+
+        .col img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        vertical-align: bottom;
+        }
+
+        img.contain {
+        object-fit: contain;
+        }
+
+        img.threeq {
+        height: 66vh;
+        }
+
+        .content-bar {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background-color: #222; 
+        padding: 5px 0;
+        /*border: 1px solid rgb(170,200,130);  Add a border around the content bar */
+        /*border-radius: 5px;  Add rounded corners to the frame */
+        overflow: hidden; /* Hide the line under the border */
+        }
+
+        .button {
+            text-decoration: none;
+            padding: 5px 0;
+            position: relative; /* Required for the line */
+        }
+
+
+        .button::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px; /* Height of the line */
+            background-color: rgb(170,200,130); /* Change to your desired line color */
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: width 0.3s ease;
+        }
+
+        .button:hover::after {
+            width: 100%; /* Show the line on hover */
+        }
+
+
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+      </style>
+   </head>
+   <body>
+    
+      <div class="index-splash">
+         <div class="index-splash-image"></div>
+         <div class="index-splash-image"></div>
+         <div class="index-splash-image"></div>
+         <div class="index-splash-image"></div>
+         <div class="index-splash-image"></div>
+         <div class="index-splash-image"></div>
+         <div class="splash-box">
+            <h1>STIFFEEL
+               <br><small>不怜悯惺惺然,不附和慵慵然。</small>
+            </h1>
+         </div>
+      </div>
+      <!--section>
+         <p>
+            I'm so glad you are here.
+         </p>
+         <p>
+            Click here to <a href="https://freeonlinesurveys.com/s/7xMbAdP1">leave your feedback and queries</a>.
+         </p>
+         </br>
+      </section-->
+      
+      <section class="content-bar">
+        <a href="#Profile" class="button">Profile</a>
+        <a href="#CV" class="button">CV</a>
+        <a href="#Life" class="button">Life</a>
+        <a href="#Library" class="button">Library</a>
+        <a href="#External" class="button">External</a>
+      </section>
+
+      <section id="Profile">
+         <table width="100%">
+            <col width="10"/>
+            <col width="200"/>
+            <tr>
+               <td>
+                  <p><img src="media/profile_photo.png" width="200"></p>
+               </td>
+               <td width="90%" >
+                  <p align="right"><font size="5"><strong></strong>Hanyu(Petra) SHI</font></strong><br/><br/></p>
+
+                  <p align="right">
+                     <font size="4">3rd Year Undergraduate | Information Engineering (信息工程)<br/>
+                     School of Electronic Information and Electrical Engineering @SJTU</font><br/>
+                  </p>
+                  
+                  <p align="right"><font size="4">Interests: Electronic HW Design | Embedded Systems | AIoT<br/>
+			  Analog Sound and Music | (Natural) Language Learning</font>
+                  </p>
+		  <p align="right">
+                     <font size="4">Address: No.800, Dongchuan Rd., Minhang Dist., Shanghai, China.</font><br/>
+                     <font size="4">Email: PetraS_2003@outlook.com</font><br/>...<br/><br/>
+                  </p>
+
+                  <p align="right"><font size="4">See more about me on <a target="_blank" href="https://github.com/uynahS">GitHub</a>,
+                     <a target="_blank" href="https://space.bilibili.com/51546731">Bilibili</a>, 
+                     <a target="_blank" href="https://blog.csdn.net/m0_60383495">CSDN</a>, 
+                     <a target="_blank" href="http://uynahs.360doc.com/">360doc</a> 
+                     and <a target="_blank" href="https://www.instagram.com/petra_hy_/">Instagram</a>.</font>
+                  </p>
+               </td>
+            </tr>
+         </table>
+         <hr>
+      </section>
+      
+      <section class="diy" id="CV">
+         <!--p><font size="5">View my CV</font><br/></p-->
+         <h2>View my CV</h2>
+         <div class="row">
+            <div class="col">
+               <img src="media/pic_line.png" loading="lazy">
+            </div>
+         </div>
+         <p>
+            Check out <a target="_blank" href="pdf/CV.pdf">here</a> to view a full version of my CV. A password is needed.
+         </p>
+         <p>
+            You can ask me in person for the password or solve this really fun <a target="_blank" href="media/puzzle.png">puzzle</a> to get it.
+         </p>
+         <hr>
+      </section>
+      
+      <section id="Life">
+         <h2>Personal Life</h2>
+         <div class="row">
+            <div class="col">
+               <ul>
+                  <li>
+                     <p><a target="_blank" href="media/childhood.JPG">Growing up</a> and <a target="_blank" href="media/graduation.jpg">graduating from high shool</a> in the city of Lanzhou</p>
+                  </li>
+                  <li>
+                     <p><a target="_blank" href="media/drawing_1.JPG">Drawings</a> and <a target="_blank" href="media/artcrafts.jpg">artcrafts</a></p>
+                  </li>
+                  <li>
+                     <p><a target="_blank" href="media/hiking.jpg">Travelling</a> and <a target="_blank" href="media/marquee.jpg">experiencing</a></p>
+                  </li>
+                  <li>
+                     <p>Singing and making music:</p>
+                     <ul>
+                        <li>
+                           <a target="_blank" href="https://www.bilibili.com/video/BV1BG4y1w7eb/?spm_id_from=333.999.0.0">Skinny love (Bilibili Cover)</a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="https://www.bilibili.com/video/BV1ta411x7zU/?spm_id_from=333.999.0.0">天际大厦 (Bilibili Cover)</a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="https://www.bilibili.com/video/BV14T411G7cV/?spm_id_from=333.999.0.0">Despacito (Bilibili Cover)</a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="https://kg.qq.com/node/play?s=MqAXpVMdUaf_MMVE">复写(More) (WeSing Cover)</a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="https://kg.qq.com/node/play?s=Pva3QnPiF5lvaPw1">Умри, если меня не любишь (WeSing Cover)</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <p><a target="_blank" href="https://www.esdict.cn/dubbing/share/bce7870b-4043-11ee-bb3b-005056869af6">Aprendizaje del español</a></p>
+                  </li>
+                  <li>
+                     <p>Making, printing and soldering circuits</p>
+                  </li>
+               </ul>
+            </div>
+            <div class="col">
+               <img src="media/pic_personal_1.png" loading="lazy">
+            </div>
+         </div>
+         <hr>
+      </section>
+      
+      <section id="Library">
+         <h2>Projects and Notes Library</h2>
+         <div class='row'>
+            <div class="col">
+               <p><font size="4">Notes</font><br/></p>
+               <ul>
+                  <li>
+                     <a target="_blank" href="page/ICE2302.html">ML Course Review | 机器学习课程复习</a>
+                  </li>
+                  <li>
+                     <a target="_blank" href="page/ELE B1.html">ELE Actual B1</a>
+                  </li>
+                  <li>
+                     <a target="_blank" href="page/Conjugations.html">Conjugations in Spanish</a>
+                  </li>
+                  <li>
+                     <a target="_blank" href="page/普中51单片机.html">普中科技51单片机</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col">
+               <p><font size="4">Projects</font><br/></p>
+               <ul>
+                  <li>
+                     <a target="_blank" href="pdf/TM4C测温射频.pdf">基于TM4C的测温射频系统</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <hr>
+      </section>
+      
+      <section id="External">
+         <h2>External Resources</h2>
+         <p>Links below are only for recommandations. 侵权请联系删除。</p>
+         <div class="row">
+            <div class="col">
+               <img src="media/pic_eel_1.jpg" loading="lazy">
+            </div>
+            <div class="col">
+               <img src="media/pic_eel_2.jpg" loading="lazy">
+            </div>
+            <div class="col">
+               <img src="media/pic_eel_3.jpg" loading="lazy">
+            </div>
+         </div>
+         <div class="row">
+            <div class="col">
+               <details>
+                  <summary>Learning</summary>
+                  <ul>
+                     <li>
+                        Learning tools
+                        <ul>
+                           <li>
+                              <a target="_blank" href="https://matrix.reshish.com/">Matrix Calculator</a>
+                           </li>
+                           <li>
+                              <a target="_blank" href="https://www.emathhelp.net/en/discrete-mathematics-calculator/">Discrete Mathematics Calculator</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a target="_blank" href="https://www.audiolabs-erlangen.de/fau/professor/mueller/bookFMP">Fundamentals of Music Processing</a>
+                     </li>
+                     <li>
+                        <a target="_blank" href="https://www.makeuseof.com/12-inspiring-diy-music-tech-projects/">12 Inspiring DIY Music Tech Projects</a>
+                     </li>
+                     <li>
+                        <a target="_blank" href="https://holaquepasa.com/">Spanish learning materials for intermediate learners</a>
+                     </li>
+                     <li>
+                        <a target="_blank" href="https://machinelearningmastery.com/">Best ML learning platform</a>
+                     </li>
+                  </ul>
+               </details>
+            </div>
+            <div class="col">
+               <details>
+                  <summary>Art and Media</summary>
+                  <p>These literary and art works have sparked my interest in new areas.</p>
+                  <ul>
+                     <li>
+                        <a target="_blank" href="https://book.douban.com/subject/2254582/">简媜：以箭为翅</a>
+                     </li>
+                     <li>
+                        <a target="_blank" href="https://book.douban.com/subject/27184303/">李娟：遥远的向日葵地</a>
+                     </li>
+                     <li>
+                        <a target="_blank" href="https://b23.tv/Ftkm3l2">Nuo culture in China | 中国各省傩文化留存</a>
+                     </li>
+                     <li>
+                        <a target="_blank" href="https://b23.tv/guNnAkl">Tribal fusion: Trickster | 部落融合舞</a>
+                     </li>
+                     <li>
+                        <a target="_blank" href="https://b23.tv/YWzpZVf">The Dong chorus | 侗族大歌</a>
+                     </li>
+                     <li>
+                        <a target="_blank" href="https://www.youtube.com/watch?v=b1UppjudfVs">Flamenco Guajira | 弗拉明戈扇子舞</a>
+                     </li>
+                     <li>
+                        <a target="_blank" href="https://b23.tv/XRsHTIc">Choral music: Yumenguan Pass | 合唱：玉门关</a>
+                     </li>
+                  </ul>
+               </details>
+            </div>
+            <div class="col">
+               <details>
+                  <summary>Useful Tools</summary>
+                  <ul>
+                     <li>Used in Building This Website</li>
+                     <ul>
+                        <li>
+                           <a target="_blank" href="https://www.w3schools.com/html/">HTML code to context formatting</a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="https://www.freeformatter.com/html-formatter.html">HTML codes formatter</a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="https://app.freeonlinesurveys.com/">Free online questionnaire</a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="https://i.postimg.cc/">Upload images to get permanent links</a>
+                        </li>
+                     </ul>
+                     <li><a target="_blank" href="https://tingwu.aliyun.com/">Tingwu | 通义听悟</a></li>
+                     <li><a target="_blank" href="http://59.108.48.27/flexifont-chn/">Chinese font auto-generator | 手写体字库生成器</a></li>
+                     <li><a target="_blank" href="https://huggingface.co/spaces/facebook/MusicGen">MusicGen:music generation</a></li>
+                     <li><a target="_blank" href="https://www.toursbylocals.com/">Private tour services</a></li>
+                  </ul>
+               </details>
+            </div>
+         </div>
+         <br/>
+      </section>
+      <section class="footer">
+         <p>© 2023/09/06 <a href="https://github.com/uynahS"><strong> Uynahs</strong></a></p>
+      </section>
+   </body>
+</html>
