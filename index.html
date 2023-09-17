@@ -213,13 +213,13 @@
          img {
          margin-bottom: -7px
          }    
-         .exibit-col,.exibit-third,.exibit-quarter{float:left;width:100%;margin_button:20px}       
-         .exibit-quarter{width:24.99999%},.exibit-third{width:33.33333%}
-         .exibit-quarter img{margin-bottom: -6px; cursor: pointer}
-         .exibit-quarter img:hover{opacity: 0.6; transition: 0.3s}
-         .w3-modal{z-index:3;display:none;width:100%;height:100%;overflow:auto;background-color:rgb(29, 103, 36);}
-         .w3-modal-content{margin:auto;background-color:#fff;padding:0;outline:0;width:100%}
-         .w3-padding-64{padding-top:0px!important;padding-bottom:0px!important}
+         .exibit-col,.exibit-fifth{float:left;width:100%;margin_button:20px}       
+         .exibit-fifth{width:20%},
+         .exibit-fifth img{margin-bottom: -6px; cursor: pointer}
+         .exibit-fifth img:hover{opacity: 0.6; transition: 0.3s}
+         .modal{z-index:3;display:none;width:100%;height:100%;overflow:auto;background-color:rgb(29, 103, 36);}
+         .modal-content{margin:auto;background-color:#fff;padding:0;outline:0;width:100%}
+         .padding-64{padding-top:0px!important;padding-bottom:0px!important}
       </style>
    </head>
    <body>
@@ -273,7 +273,7 @@
                      <font size="4">Address: No.800, Dongchuan Rd., Minhang Dist., Shanghai, China.</font><br/>
                      <font size="4">Email: PetraS_2003@outlook.com</font><br/>...<br/><br/>
                   </p>
-                  <p align="right"><font size="4">See more about me on <a target="_blank" href="https://github.com/uynahS">GitHub</a>,
+                  <p align="right"><font size="4">See more about me on <a target="_blank" href="https://github.com/Stiffeel">GitHub</a>,
                      <a target="_blank" href="https://space.bilibili.com/51546731">Bilibili</a>, 
                      <a target="_blank" href="https://blog.csdn.net/m0_60383495">CSDN</a>, 
                      <a target="_blank" href="http://uynahs.360doc.com/">360doc</a> 
@@ -303,23 +303,28 @@
       <section id="Life">
          <h2>Personal Life</h2>
          <p>Click the photos to view details~</p>
-         <div id="modal01" class="w3-modal" style="padding-top:0" onclick="this.style.display='none'">
+         <div id="modal01" class="modal" style="padding-top:0" onclick="this.style.display='none'">
                <p id="caption" align="center" ></p>
          </div>
          <div  id="myGrid" style="margin-bottom: 200px">
-            <div class="exibit-quarter" style="margin-bottom: 20px">
-               <img src="media/artcrafts.jpg" style="width:100%" onclick="onClick(this)" alt="Making paper model whenever I have leisure time">
-               <img src="media/woodcut.jpg" style="width:100%" onclick="onClick(this)" alt="Try woodcut painting at the uni">
-            </div>
-            <div class="exibit-quarter" style="margin-bottom: 20px">
+            <div class="exibit-fifth" style="margin-bottom: 20px">
+               <img src="media/bookshelf.JPG" style="width:100%" onclick="onClick(this)" alt="There was a huge bookshelf at the first place my family lived">
+               <img src="media/stickers.jpg" style="width:100%" onclick="onClick(this)" alt="'Destroyed' the room door with stickers">
+               <img src="media/europe.jpg" style="width:100%" onclick="onClick(this)" alt="In Austria, 2015">
+            </div> 
+            <div class="exibit-fifth" style="margin-bottom: 20px">
                <img src="media/childhood.JPG" style="width:100%" onclick="onClick(this)" alt="At a park in Lanzhou with my father">
                <img src="media/graduation.jpg" style="width:100%" onclick="onClick(this)" alt="After Gaokao, last day in the campus">  
             </div>
-            <div class="exibit-quarter" style="margin-bottom: 20px">
+            <div class="exibit-fifth" style="margin-bottom: 20px">
+               <img src="media/artcrafts.jpg" style="width:100%" onclick="onClick(this)" alt="Making paper model whenever I have leisure time">
+               <img src="media/woodcut.jpg" style="width:100%" onclick="onClick(this)" alt="Try woodcut painting at the uni">
+            </div>
+            <div class="exibit-fifth" style="margin-bottom: 20px">
                <img src="media/hiking.jpg" style="width:100%" onclick="onClick(this)" alt="Hiking in the forest, looking for the bunkers">
                <img src="media/marquee.jpg" style="width:100%" onclick="onClick(this)" alt="Marquee @MarinaBaySand">
             </div>
-            <div class="exibit-quarter" style="margin-bottom: 20px">
+            <div class="exibit-fifth" style="margin-bottom: 20px">
                <img src="media/the_hive.jpg" style="width:100%" onclick="onClick(this)" alt="Summer at NTU">
                <img src="media/chorus.jpg" style="width:100%" onclick="onClick(this)" alt="Choir performance at the uni">
             </div>
@@ -462,7 +467,7 @@
          <br/>
       </section>
       <section class="footer">
-         <p>© 2023/09/06 <a href="https://github.com/uynahS"><strong> Uynahs</strong></a></p>
+         <p>last edit 2023/09/17 <a href="https://github.com/Stiffeel"><strong> Stiffeel</strong></a></p>
       </section>
       <script>
          function onClick(element) {
