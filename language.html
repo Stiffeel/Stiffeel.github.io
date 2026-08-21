@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="assets/images/avatar_128x128.png">
+<meta name="description" content="Language learning notes and posts — Yulengua and beyond.">
+<title data-en="Language Learning — Hanyu (Petra) Shi" data-zh="语言学习 — 石涵玉">Language Learning</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@500;600&family=Noto+Sans+SC:wght@400;500&family=JetBrains+Mono:wght@400;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="scanlines"></div>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="brand"><span class="dot"></span>PETRA.SHI</a>
+    <ul class="nav-links">
+      <li><a href="index.html#about" lang-en>About</a><a href="index.html#about" lang-zh>关于我</a></li>
+      <li><a href="index.html#projects" lang-en>Projects</a><a href="index.html#projects" lang-zh>项目</a></li>
+      <li><a href="index.html#map" lang-en>Map</a><a href="index.html#map" lang-zh>照片地图</a></li>
+      <li><a href="tour.html" lang-en>Tours</a><a href="tour.html" lang-zh>导游</a></li>
+      <li><a href="language.html" class="active" lang-en>Blog</a><a href="language.html" class="active" lang-zh>博客</a></li>
+      <li><button class="lang-toggle" type="button">中文</button></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Menu"><span></span></button>
+  </div>
+</nav>
+
+<main>
+  <section class="page-hero" style="padding-bottom:20px">
+    <div class="container">
+      <!-- <p lang-en>Notes and posts</p>
+      <p lang-zh>我的笔记</p> -->
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="container">
+      <a class="yulengua-banner" href="https://github.com/Stiffeel/lingua" target="_blank" rel="noopener" data-reveal>
+        <div>
+          <div class="name">Yulengua</div>
+          <div class="desc" lang-en>A vibe-coded language learning tool</div>
+          <div class="desc" lang-zh>我的vibe coding语言学习小工具</div>
+        </div>
+        <span class="pixel-tag" lang-en>VISIT</span>
+        <span class="pixel-tag" lang-zh>前往</span>
+      </a>
+
+      <div class="section-head" data-reveal>
+        <!-- <span class="section-num"><span lang-en>Posts</span><span lang-zh>博文</span></span> -->
+        <h2 lang-en>Latest</h2>
+        <h2 lang-zh>最近更新</h2>
+      </div>
+
+      <div class="blog-list" id="blog-list" data-reveal>
+        <div class="notice">
+          <span lang-en>Loading posts…</span>
+          <span lang-zh>正在加载博文…</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> <span lang-en>Hanyu (Petra) Shi</span><span lang-zh>石涵玉</span></p>
+    <div class="socials">
+      <a href="mailto:hello@example.com">Email</a>
+      <a href="https://github.com/Stiffeel" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="js/main.js"></script>
+<script src="js/blog.js"></script>
+</body>
+</html>
