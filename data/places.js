@@ -584,11 +584,23 @@ window.PLACES = {
     lon: 69.2401, lat: 41.2995,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_13.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_14.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_15.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_16.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/uzbekistan_17.jpg"
     ]
   },
 
@@ -598,11 +610,16 @@ window.PLACES = {
     lon: 71.4304, lat: 51.1694,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_01.jpeg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_02.jpeg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_03.JPG", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_04.JPG",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_05.JPG", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_06.JPG",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_07.jpeg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_08.jpeg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_10.jpeg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_10.jpg"
     ]
   }
 
