@@ -41,10 +41,10 @@ window.PLACES = {
     maps: ["world"],
     photos: [
       "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_04.jpeg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_05.jpeg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_07.jpeg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_08.jpeg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_09.jpeg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_10.jpeg"
     ]
   },
 
@@ -598,9 +598,9 @@ window.PLACES = {
     lon: 71.4304, lat: 51.1694,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_01.jpeg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_03.jpeg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_01.jpeg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_02.jpeg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_03.JPG", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_04.JPG",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_05.JPG", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_06.JPG",
       "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_07.jpeg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_08.jpeg",
       "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_10.jpeg"
     ]
