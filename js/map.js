@@ -2,7 +2,7 @@
 
    Map geometry (province / land outlines + projection parameters) lives in
    assets/geo/map-data.js and never needs editing.
-   The cities themselves live in data/places.js 鈥� pins are projected from
+   The cities themselves live in data/places.js — pins are projected from
    lon/lat at runtime, so adding a city there is all it takes. */
 (function () {
 
@@ -202,22 +202,20 @@
     const titleEn = overlay.querySelector(".carousel-title [lang-en]");
     const countNow = overlay.querySelector(".carousel-count .now");
     const countAll = overlay.querySelector(".carousel-count .all");
-    const prevButton = overlay.querySelector(".carousel-nav.prev");
-    const nextButton = overlay.querySelector(".carousel-nav.next");
     let items = [];
     let raf = null;
 
-    /* The scaled photo items create their own stacking contexts. Keep the
-       controls in a dedicated foreground layer so loaded images cannot cover
-       them or intercept their clicks. */
-    [prevButton, nextButton, overlay.querySelector(".carousel-close")].forEach(function (button) {
-      if (!button) return;
-      button.style.position = "relative";
-      button.style.zIndex = "1000";
-      button.style.pointerEvents = "auto";
-    });
+    /* paint() gives the centred photo z-index 100, while the arrows, the close
+       button and the counter sit at z-index 3 in the overlay. `.carousel-viewport`
+       is position:absolute with z-index:auto, so it does NOT create a stacking
+       context and those 100s compete directly with the 3s — the photo wins and
+       covers the controls. Giving the viewport its own z-index confines every
+       item's z-index inside it, so the controls stay on top.
+       (Only shows up once real images load: broken/empty images are too small
+       to reach the arrows.) */
+    if (!viewport.style.zIndex) viewport.style.zIndex = "1";
 
-    /* centre-weighted scale + fade 鈥� the whole effect, kept deliberately plain.
+    /* centre-weighted scale + fade — the whole effect, kept deliberately plain.
        Falloff is measured in "items away from centre", not pixels, so it looks
        the same whether the photos are wide panoramas or narrow portraits. */
     function paint() {
@@ -265,17 +263,38 @@
     viewport.addEventListener("scroll", schedule, { passive: true });
     window.addEventListener("resize", function () { if (overlay.classList.contains("open")) pad(), schedule(); });
 
-    /* Wheel events are handled during capture so an image or transformed item
-       cannot prevent them from reaching the carousel viewport. */
-    function scrollWithWheel(e) {
-      if (!overlay.classList.contains("open")) return;
-      if (!e.target.closest || !e.target.closest(".carousel-viewport")) return;
+    /* wheel: let both mouse-wheel and trackpad input drive the horizontal strip.
+
+       The viewport is `scroll-snap-type: x mandatory`. Snapping re-runs after
+       every programmatic scrollLeft change, and one wheel tick (~100px) is far
+       smaller than one photo (~600px), so the snap drags the strip straight back
+       to the photo it started on — the wheel looks completely dead. It only
+       worked before because unloaded images were a few pixels wide, which put
+       the snap points closer together than a single tick.
+
+       So: switch snapping off while the wheel is actually moving, then switch it
+       back on and settle onto the nearest photo once it stops. The drag handler
+       already does the same thing via the `.dragging` class in the stylesheet. */
+    let wheelAccum = 0;
+    let wheelLock = false;
+    const WHEEL_STEP = 50;   // wheel travel that counts as one photo — lower = more sensitive
+
+    viewport.addEventListener("wheel", function (e) {
       const delta = Math.abs(e.deltaX) >= Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
       if (!delta) return;
       e.preventDefault();
-      viewport.scrollLeft += delta;
-    }
-    overlay.addEventListener("wheel", scrollWithWheel, { passive: false, capture: true });
+      if (wheelLock) return;               // ignore input while a step animates
+
+      wheelAccum += delta;
+      if (Math.abs(wheelAccum) < WHEEL_STEP) return;
+
+      const dir = wheelAccum > 0 ? 1 : -1;
+      wheelAccum = 0;
+      const target = Math.min(items.length - 1, Math.max(0, activeIndex() + dir));
+      wheelLock = true;
+      centreOn(target);
+      setTimeout(function () { wheelLock = false; }, 260);   // let the smooth scroll land
+    }, { passive: false });
 
     /* drag to pan */
     let down = false, startX = 0, startScroll = 0, moved = false;
@@ -300,12 +319,10 @@
     viewport.addEventListener("pointerup", endDrag);
     viewport.addEventListener("pointercancel", endDrag);
 
-    prevButton.addEventListener("click", function (e) {
-      e.stopPropagation();
+    overlay.querySelector(".carousel-nav.prev").addEventListener("click", function () {
       centreOn(Math.max(0, activeIndex() - 1));
     });
-    nextButton.addEventListener("click", function (e) {
-      e.stopPropagation();
+    overlay.querySelector(".carousel-nav.next").addEventListener("click", function () {
       centreOn(Math.min(items.length - 1, activeIndex() + 1));
     });
 
@@ -331,7 +348,7 @@
       overlay.classList.add("open");
       document.body.style.overflow = "hidden";
 
-      /* images may not have laid out yet 鈥� settle once they have */
+      /* images may not have laid out yet — settle once they have */
       const settle = function () { pad(); viewport.scrollLeft = 0; schedule(); };
       requestAnimationFrame(settle);
       let pending = items.length;
@@ -343,6 +360,8 @@
     };
 
     this.close = function () {
+      wheelAccum = 0;
+      wheelLock = false;
       overlay.classList.remove("open");
       document.body.style.overflow = "";
       setTimeout(function () { track.innerHTML = ""; items = []; }, 300);
