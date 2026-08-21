@@ -2,7 +2,7 @@
 
    Map geometry (province / land outlines + projection parameters) lives in
    assets/geo/map-data.js and never needs editing.
-   The cities themselves live in data/places.js — pins are projected from
+   The cities themselves live in data/places.js 鈥� pins are projected from
    lon/lat at runtime, so adding a city there is all it takes. */
 (function () {
 
@@ -202,10 +202,22 @@
     const titleEn = overlay.querySelector(".carousel-title [lang-en]");
     const countNow = overlay.querySelector(".carousel-count .now");
     const countAll = overlay.querySelector(".carousel-count .all");
+    const prevButton = overlay.querySelector(".carousel-nav.prev");
+    const nextButton = overlay.querySelector(".carousel-nav.next");
     let items = [];
     let raf = null;
 
-    /* centre-weighted scale + fade — the whole effect, kept deliberately plain.
+    /* The scaled photo items create their own stacking contexts. Keep the
+       controls in a dedicated foreground layer so loaded images cannot cover
+       them or intercept their clicks. */
+    [prevButton, nextButton, overlay.querySelector(".carousel-close")].forEach(function (button) {
+      if (!button) return;
+      button.style.position = "relative";
+      button.style.zIndex = "1000";
+      button.style.pointerEvents = "auto";
+    });
+
+    /* centre-weighted scale + fade 鈥� the whole effect, kept deliberately plain.
        Falloff is measured in "items away from centre", not pixels, so it looks
        the same whether the photos are wide panoramas or narrow portraits. */
     function paint() {
@@ -253,13 +265,17 @@
     viewport.addEventListener("scroll", schedule, { passive: true });
     window.addEventListener("resize", function () { if (overlay.classList.contains("open")) pad(), schedule(); });
 
-    /* wheel: let both mouse-wheel and trackpad input drive the horizontal strip */
-    viewport.addEventListener("wheel", function (e) {
+    /* Wheel events are handled during capture so an image or transformed item
+       cannot prevent them from reaching the carousel viewport. */
+    function scrollWithWheel(e) {
+      if (!overlay.classList.contains("open")) return;
+      if (!e.target.closest || !e.target.closest(".carousel-viewport")) return;
       const delta = Math.abs(e.deltaX) >= Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
       if (!delta) return;
       e.preventDefault();
       viewport.scrollLeft += delta;
-    }, { passive: false });
+    }
+    overlay.addEventListener("wheel", scrollWithWheel, { passive: false, capture: true });
 
     /* drag to pan */
     let down = false, startX = 0, startScroll = 0, moved = false;
@@ -284,10 +300,12 @@
     viewport.addEventListener("pointerup", endDrag);
     viewport.addEventListener("pointercancel", endDrag);
 
-    overlay.querySelector(".carousel-nav.prev").addEventListener("click", function () {
+    prevButton.addEventListener("click", function (e) {
+      e.stopPropagation();
       centreOn(Math.max(0, activeIndex() - 1));
     });
-    overlay.querySelector(".carousel-nav.next").addEventListener("click", function () {
+    nextButton.addEventListener("click", function (e) {
+      e.stopPropagation();
       centreOn(Math.min(items.length - 1, activeIndex() + 1));
     });
 
@@ -313,7 +331,7 @@
       overlay.classList.add("open");
       document.body.style.overflow = "hidden";
 
-      /* images may not have laid out yet — settle once they have */
+      /* images may not have laid out yet 鈥� settle once they have */
       const settle = function () { pad(); viewport.scrollLeft = 0; schedule(); };
       requestAnimationFrame(settle);
       let pending = items.length;
