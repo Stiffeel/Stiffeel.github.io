@@ -40,11 +40,21 @@ window.PLACES = {
     lon: 81.3167, lat: 43.9169,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_04.jpeg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_05.jpeg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_07.jpeg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_08.jpeg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_09.jpeg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/yining_10.jpeg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/ili_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/ili_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/ili_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/ili_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/ili_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/ili_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/ili_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/ili_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/ili_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/ili_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/ili_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/ili_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/ili_13.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/ili_14.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/ili_15.jpg"
     ]
   },
 
