@@ -598,12 +598,26 @@ window.PLACES = {
     lon: 71.4304, lat: 51.1694,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_01.jpeg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_03.jpeg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_04.jpg",
       "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_07.jpeg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_08.jpeg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_10.jpeg"
     ]
   }
 
 };
+
+// 自动给 OSS 图片加上缩放 + WebP 处理参数（上面的列表保持原样，不用动）
+(function () {
+  var OSS_HOST = "picgobucketshihy.oss-cn-shanghai.aliyuncs.com";
+  var PROCESS  = "?x-oss-process=image/resize,w_1400/format,webp/quality,q_80";
+  Object.keys(window.PLACES).forEach(function (k) {
+    var p = window.PLACES[k];
+    if (!p || !p.photos) return;
+    p.photos = p.photos.map(function (u) {
+      return (u.indexOf(OSS_HOST) !== -1 && u.indexOf("x-oss-process") === -1)
+        ? u + PROCESS : u;
+    });
+  });
+})();
