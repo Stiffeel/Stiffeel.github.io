@@ -1,7 +1,7 @@
 ---
 
 title: 臊子意面和荷兰白醋的适配性
-title_en: Compatibility of Saozi Pasta with Dutch White Vinegar
+title_en: Compatibility of Saozi Pasta with Natuurazijn
 date: 2026-08-16
 link: https://app.notion.com/p/3c4f1043b89381ad9018da61be07c448
 cover: https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/image-20260822143349702.png
