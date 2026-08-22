@@ -10,11 +10,7 @@ window.PLACES = {
     lon: 103.8343, lat: 36.0611,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/lanzhou_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/lanzhou_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/lanzhou_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/lanzhou_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/lanzhou_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/lanzhou_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/lanzhou_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/lanzhou_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/lanzhou_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/lanzhou_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/lanzhou_01.jpg",
     ]
   },
 
@@ -69,33 +65,41 @@ window.PLACES = {
 
 
   zhangye: {
-    zh: "张掖/武威/白银",
-    en: "Zhangye&Wuwei&Baiyin, Gansu",
+    zh: "张掖/武威/白银/嘉峪关",
+    en: "Zhangye&Wuwei&Baiyin&Jiayuguan, Gansu",
     lon: 100.4498, lat: 38.9259,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/zhangye_13.jpg"
     ]
   },
 
 
-  tianshui: {
-    zh: "天水",
-    en: "Tianshui",
-    lon: 105.7249, lat: 34.5809,
-    maps: ["world"],
-    photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_10.jpg"
-    ]
-  },
+  // tianshui: {
+  //   zh: "天水",
+  //   en: "Tianshui",
+  //   lon: 105.7249, lat: 34.5809,
+  //   maps: ["world"],
+  //   photos: [
+  //     "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_02.jpg",
+  //     "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_04.jpg",
+  //     "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_06.jpg",
+  //     "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_08.jpg",
+  //     "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tianshui_10.jpg"
+  //   ]
+  // },
 
 
   xining: {
@@ -104,11 +108,24 @@ window.PLACES = {
     lon: 101.7782, lat: 36.6171,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_13.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_14.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_15.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_16.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_17.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xining_18.jpg"
     ]
   },
 
@@ -118,11 +135,16 @@ window.PLACES = {
     lon: 108.9398, lat: 34.3416,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xian_10.jpg"
     ]
   },
 
@@ -132,11 +154,11 @@ window.PLACES = {
     lon: 116.4074, lat: 39.9042,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/beijing_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/beijing_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/beijing_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/beijing_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/beijing_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/beijing_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/beijing_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/beijing_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/beijing_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/beijing_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/beijing_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/beijing_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/beijing_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/beijing_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/beijing_05.jpg"
     ]
   },
 
@@ -146,11 +168,39 @@ window.PLACES = {
     lon: 121.4737, lat: 31.2304,
     maps: ["world", "world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_13.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_14.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_15.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_16.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_17.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_18.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_19.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_20.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_21.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_22.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_23.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_24.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_25.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_26.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_27.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_28.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_29.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_30.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_31.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_32.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/shanghai_33.jpg"
     ]
   },
 
@@ -160,11 +210,18 @@ window.PLACES = {
     lon: 104.0665, lat: 30.5728,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/chengdu_12.jpg"
     ]
   },
 
@@ -174,11 +231,15 @@ window.PLACES = {
     lon: 102.8329, lat: 24.8801,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kunming_09.jpg"
     ]
   },
 
@@ -188,11 +249,18 @@ window.PLACES = {
     lon: 98.5881, lat: 24.4337,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/mangshi_12.jpg"
     ]
   },
 
@@ -202,25 +270,31 @@ window.PLACES = {
     lon: 98.4900, lat: 25.0205,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/tengchong_08.jpg"
     ]
   },
 
   hangzhou: {
-    zh: "杭州",
-    en: "Hangzhou",
+    zh: "杭州/湖州",
+    en: "Hangzhou&Huzhou, Zhejiang",
     lon: 120.1551, lat: 30.2741,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hangzhou_08.jpg"
     ]
   },
 
@@ -232,19 +306,7 @@ window.PLACES = {
     photos: []
   },
 
-  huzhou: {
-    zh: "湖州",
-    en: "Huzhou",
-    lon: 120.0868, lat: 30.8943,
-    maps: ["world"],
-    photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/huzhou_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/huzhou_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/huzhou_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/huzhou_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/huzhou_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/huzhou_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/huzhou_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/huzhou_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/huzhou_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/huzhou_10.jpg"
-    ]
-  },
+
 
   xiamen: {
     zh: "厦门",
@@ -252,97 +314,69 @@ window.PLACES = {
     lon: 118.0894, lat: 24.4798,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiamen_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiamen_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiamen_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiamen_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiamen_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiamen_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiamen_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiamen_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiamen_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiamen_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiamen_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiamen_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiamen_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiamen_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiamen_05.jpg"
     ]
   },
 
-  fuzhou_fujian: {
-    zh: "福州",
-    en: "Fuzhou",
-    lon: 119.2965, lat: 26.0745,
-    maps: ["world"],
-    photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhou_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhou_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhou_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhou_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhou_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhou_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhou_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhou_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhou_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhou_10.jpg"
-    ]
-  },
 
   pingtan: {
-    zh: "平潭",
-    en: "Pingtan",
+    zh: "福州/平潭",
+    en: "Fuzhou&Pingtan, Fujian",
     lon: 119.7902, lat: 25.4986,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/pingtan_10.jpg"
     ]
   },
 
   nanchang: {
-    zh: "南昌",
-    en: "Nanchang",
+    zh: "南昌/抚州",
+    en: "Nanchang&Fuzhou, Jiangxi",
     lon: 115.8582, lat: 28.6829,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/nanchang_11.jpg"
     ]
   },
 
-  fuzhou_jiangxi: {
-    zh: "抚州",
-    en: "Fuzhou, Jiangxi",
-    lon: 116.3584, lat: 27.9489,
-    maps: ["world"],
-    photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhoujx_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhoujx_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhoujx_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhoujx_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhoujx_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhoujx_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhoujx_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhoujx_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhoujx_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/fuzhoujx_10.jpg"
-    ]
-  },
 
   hengyang: {
-    zh: "衡阳",
-    en: "Hengyang",
+    zh: "长沙/衡阳",
+    en: "Changsha&Hengyang, Hunan",
     lon: 112.5700, lat: 26.8500,
     maps: ["china"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hengyang_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hengyang_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hengyang_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hengyang_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hengyang_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hengyang_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hengyang_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hengyang_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hengyang_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hengyang_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hengyang_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hengyang_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hengyang_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hengyang_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hengyang_05.jpg"
     ]
   },
 
-  changsha: {
-    zh: "长沙",
-    en: "Changsha",
-    lon: 113.0500, lat: 28.3000,
-    maps: ["china"],
-    photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/changsha_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/changsha_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/changsha_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/changsha_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/changsha_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/changsha_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/changsha_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/changsha_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/changsha_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/changsha_10.jpg"
-    ]
-  },
 
   guilin: {
     zh: "桂林",
@@ -350,11 +384,14 @@ window.PLACES = {
     lon: 110.2900, lat: 25.2736,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/guilin_08.jpg"
     ]
   },
 
@@ -815,7 +852,48 @@ window.PLACES = {
       "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_09.jpg",
       "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kazakhstan_10.jpg"
     ]
-  }
+  },
+
+  // ══════════════════════════════════════
+  // EAST ASIA
+  // ══════════════════════════════════════
+
+  setonaikai: {
+  zh: "濑户内海/大阪",
+  en: "Setonaikai&Osaka, Japan",
+  lon: 133.5000, lat: 34.3000,
+  maps: ["world"],
+  photos: [
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_13.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_14.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_15.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_16.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_17.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_18.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_19.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_20.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_21.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_22.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_23.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_24.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_25.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_26.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_27.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/japan_28.jpg"
+    ]
+},
 
 };
 
