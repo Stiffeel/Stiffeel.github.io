@@ -19,16 +19,25 @@ window.PLACES = {
   },
 
   xiahe: {
-    zh: "夏河/合作",
+    zh: "安多夏河/合作",
     en: "Xiahe&Hezuo, Gansu",
     lon: 102.5218, lat: 35.2025,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_13.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/xiahe_14.jpg"
     ]
   },
 
@@ -360,25 +369,39 @@ window.PLACES = {
     lon: 103.8198, lat: 1.3521,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_13.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_14.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_15.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_16.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_17.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_18.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/singapore_19.jpg"
     ]
   },
 
   kualalumpur_penang: {
-    zh: "吉隆坡 & 槟城",
-    en: "Kuala Lumpur & Penang",
+    zh: "马来西亚",
+    en: "Malaysia",
     lon: 101.6869, lat: 3.1390,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kualalumpur_penang_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kualalumpur_penang_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kualalumpur_penang_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kualalumpur_penang_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kualalumpur_penang_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kualalumpur_penang_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kualalumpur_penang_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kualalumpur_penang_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kualalumpur_penang_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/kualalumpur_penang_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/malaysia_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/malaysia_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/malaysia_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/malaysia_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/malaysia_05.jpg"
     ]
   },
 
@@ -393,11 +416,27 @@ window.PLACES = {
     lon: 4.9041, lat: 52.3676,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_13.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_14.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_15.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_16.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_17.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_18.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_19.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_20.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/netherlands_21.jpg"
     ]
   },
 
@@ -407,11 +446,35 @@ window.PLACES = {
     lon: 4.3571, lat: 52.0116,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_13.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_14.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_15.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_16.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_17.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_18.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_19.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_20.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_21.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_22.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_23.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_24.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_25.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_26.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_27.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_28.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/delft_29.jpg"
     ]
   },
 
@@ -421,11 +484,23 @@ window.PLACES = {
     lon: 4.3517, lat: 50.8503,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_13.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_14.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_15.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_16.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/belgium_17.jpg"
     ]
   },
 
@@ -435,11 +510,25 @@ window.PLACES = {
     lon: 8.1700, lat: 48.6500,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/heidelberg_freiburg_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/heidelberg_freiburg_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/heidelberg_freiburg_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/heidelberg_freiburg_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/heidelberg_freiburg_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/heidelberg_freiburg_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/heidelberg_freiburg_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/heidelberg_freiburg_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/heidelberg_freiburg_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/heidelberg_freiburg_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_13.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_14.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_15.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_16.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_17.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_18.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/BaWu_19.jpg"
     ]
   },
 
@@ -449,11 +538,27 @@ window.PLACES = {
     lon: 13.4050, lat: 52.5200,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_13.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_14.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_15.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_16.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_17.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_18.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_19.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_20.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/berlin_21.jpg"
     ]
   },
 
@@ -463,11 +568,26 @@ window.PLACES = {
     lon: 5.9800, lat: 50.7400,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/liege_aachen_vaals_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/liege_aachen_vaals_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/liege_aachen_vaals_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/liege_aachen_vaals_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/liege_aachen_vaals_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/liege_aachen_vaals_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/liege_aachen_vaals_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/liege_aachen_vaals_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/liege_aachen_vaals_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/liege_aachen_vaals_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_13.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_14.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_15.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_16.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_17.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_18.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_19.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/3landen_20.jpg"
     ]
   },
 
@@ -477,11 +597,13 @@ window.PLACES = {
     lon: 6.8800, lat: 51.0500,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/cologne_dusseldorf_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/cologne_dusseldorf_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/cologne_dusseldorf_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/cologne_dusseldorf_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/cologne_dusseldorf_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/cologne_dusseldorf_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/cologne_dusseldorf_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/cologne_dusseldorf_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/cologne_dusseldorf_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/cologne_dusseldorf_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/koeln_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/koeln_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/koeln_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/koeln_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/koeln_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/koeln_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/koeln_07.jpg"
     ]
   },
 
@@ -491,11 +613,19 @@ window.PLACES = {
     lon: 2.3522, lat: 48.8566,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/paris_13.jpg"
     ]
   },
 
@@ -505,11 +635,16 @@ window.PLACES = {
     lon: 6.1296, lat: 49.6116,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/luxembourg_10.jpg"
     ]
   },
 
@@ -519,11 +654,18 @@ window.PLACES = {
     lon: 11.5820, lat: 48.1351,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/munich_12.jpg"
     ]
   },
 
@@ -533,11 +675,33 @@ window.PLACES = {
     lon: 16.3738, lat: 48.2082,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_13.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_14.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_15.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_16.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_17.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_18.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_19.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_20.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_21.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_22.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_23.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_24.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_25.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_26.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/austria_27.jpg"
     ]
   },
 
@@ -547,25 +711,40 @@ window.PLACES = {
     lon: 19.0402, lat: 47.4979,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/hungary_10.jpg"
     ]
   },
 
   czechia: {
     zh: "捷克",
-    en: "Czechia",
+    en: "Czech Republic",
     lon: 14.4378, lat: 50.0755,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_10.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_11.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_12.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_13.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_14.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/czechia_15.jpg"
     ]
   },
 
@@ -575,11 +754,16 @@ window.PLACES = {
     lon: 9.1900, lat: 45.4642,
     maps: ["world"],
     photos: [
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_01.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_02.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_03.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_04.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_05.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_06.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_07.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_08.jpg",
-      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_09.jpg", "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_10.jpg"
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_01.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_02.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_03.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_04.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_05.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_06.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_07.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_08.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_09.jpg",
+      "https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/milan_10.jpg"
     ]
   },
 
