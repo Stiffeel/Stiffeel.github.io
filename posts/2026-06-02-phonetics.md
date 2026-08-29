@@ -1,8 +1,8 @@
 ---
 title: 说说我的phonetic awareness
-title_en: 说说我的phonetic awareness
+title_en: My phonetic awareness
 date: 2026-06-02
-link: https://app.notion.com/p/3c4f1043b89381aebb61c95ca4a27d3a?pvs=204
+link: https://scratched-raver-25e.notion.site/phonetic-awareness-3c4f1043b89381aebb61c95ca4a27d3a?source=copy_link
 cover: https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/image-20260822041208766.png
 tags: 语音学, IPA,
 ---
