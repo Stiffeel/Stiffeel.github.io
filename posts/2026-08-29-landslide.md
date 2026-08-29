@@ -6,7 +6,7 @@ title_en: After the Tibet-Nepal Mudslide
 
 date: 2026-08-29
 
-link: [天灾](https://app.notion.com/p/3cbf1043b89380dab8f8fabe41af70f6?pvs=21)
+link: https://scratched-raver-25e.notion.site/3cbf1043b89380dab8f8fabe41af70f6?source=copy_link
 
 cover: https://picgobucketshihy.oss-cn-shanghai.aliyuncs.com/image-20260829202116158.png
 
